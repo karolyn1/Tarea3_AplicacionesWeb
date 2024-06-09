@@ -1,0 +1,300 @@
+* {
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body {
+   font-family: sans-serif; 
+   padding: 90px 20px 0;
+}
+
+.header {
+   background-color: crimson;
+   height: 90px;    
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   padding-right: 150px;
+} 
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px; 
+    margin: 0px auto;  
+}
+
+.nav-link {
+    coLor: White;
+    text-decoration: none;
+}
+
+.logo { 
+    font-size: 30px;
+    font-weight: bold; 
+    padding: 0 40px; 
+    line-height: 80px;
+    color: darkblue;
+}
+
+.nav-menu {
+    display: flex; 
+    margin-right: 40px; 
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px; 
+    margin: 0 10px; 
+    line-height: 80px; 
+    width: max-content;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070; 
+    transition: 0.5s;
+}
+
+.nav-menu-link {
+    padding: 8px 12px; 
+    border-radius: 4px;
+}
+
+.container{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    overflow: auto;
+}
+.text{
+    position: absolute;
+    width: 50%;
+    top: 600px;
+    /*overflow: auto;*/
+}
+
+#contenido {
+    position: absolute;
+    top: 850px;
+    height: 81%;
+    width: 100%;
+    color: black;
+    overflow: auto;
+    line-height: 30px;
+    padding-bottom: 70px;
+}
+
+.footer-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: flex; 
+    margin-right: 40px; 
+    list-style: none;
+    background-color: crimson;
+}
+
+
+.footer-menu-item {
+    font-size: 18px; 
+    margin: 0 10px; 
+    line-height: 80px; 
+    width: max-content;
+}
+
+.footer-menu-link:hover {
+    background-color: #024070; 
+    transition: 0.5s;
+}
+
+.footer-link {
+    padding: 8px 12px; 
+    border-radius: 4px;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+    top: 250px;
+    padding-top: 20px;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+h2{
+    color: red;
+    font-size: 24px;
+    padding: 15px;
+}
+h3{
+    color: darkblue;
+    margin-left: 145px;
+    font-size: 20px;
+}
+
+.genero-pelicula{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; 
+    line-height: 80px; 
+    transition: 0.5s;
+    padding: 8px 12px; 
+    border-radius: 4px;
+    
+}
+
+#contenido-second{
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    overflow: auto;
+    line-height: 30px;
+    padding-bottom: 80px;
+    margin:20px
+}
+
+table.scroll{
+    width: 100%;
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid deepskyblue;
+/*  position: relative;*/
+  
+}
+
+
+#encabezadoTabla {
+    font-size: 20px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+#tablaResumen tr {
+    font-size: 20px;
+    text-align: center;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+.my-button {
+  font-size: 30px;  
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.my-button:hover {
+  background-color: red;
+}
+.my-button:active {
+  background-color: black;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+textarea {
+  display: block;
+  padding: 10px;
+  margin: 10px 0 0 -10px;
+  width: 100%;
+  height: 90%;
+  border-right: 1px solid;
+  overflow: auto;
+}
+
+#button-form {
+  padding: 5px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+
+#button-form:hover,
+button-form:focus {
+  outline: none;
+  background:  cornflowerblue;
+  color: #fff;
+}
+
+#barraLateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: #cccccc;
+    color: black;
+}
+
+.contenido-link {
+    coLor: black;
+    text-decoration: none;
+}
+
+.contenido-menu{
+    display: flow; 
+    margin-right: 40px; 
+    list-style: none;
+    color: black;
+}
+
+.contenido-menu-item {
+    font-size: 18px; 
+    margin: 0 10px; 
+    line-height: 40px; 
+    width: max-content;
+}
+
+.contenido-menu-link:hover {
+    color: aqua; 
+    background-color: #024070; 
+    transition: 0.5s;
+}
+
+#contenido-third {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: #fff;
+    color: black;
+    overflow: auto;
+}
+.descripcion{
+    margin: 15px;
+    line-height: 25px;
+}
